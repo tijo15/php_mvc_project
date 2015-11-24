@@ -10,7 +10,7 @@ Installation
 
 You will need to install composer from https://getcomposer.org/
 
-1) Clone the project by following this link: 
+1) Clone the project by following this link: https://github.com/tijo15/php_mvc_project.git
 
 2) Enter the project folder and delete the vendor folder.
 
