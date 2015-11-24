@@ -11,5 +11,6 @@
 <li>Id: <?=$user->getProperties()['id']?></li>
 <li>Email: <?=$user->getProperties()['email']?></li>
 </ul>
-<a href='<?=$this->url->create('users/')?>'>Tillbaka</a>
-<!-- <a href="<?=$this->url->create('users/deActiveAction').'/'.$user->getProperties()['id']?>">Inaktivera användare</a> -->
+ <button class="btn btn-primary btn-xs" style="margin-bottom:40px;"><a href='<?=$this->url->create('users/update').'/'.$user->getProperties()['id']?>'><i class="fa fa-wrench fa-fw"></i>Uppdatera användare</a></button>
+<button class="btn btn-primary btn-xs" style="margin-bottom:40px;"><a href='<?=$this->url->create('users/')?>'><i class="fa fa-chevron-left fa-fw"></i>Tillbaka</a></button>
+
