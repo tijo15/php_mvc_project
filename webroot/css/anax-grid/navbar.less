@@ -1,0 +1,92 @@
+/**
+ * Based on http://dbwebb.se/coachen/en-navbar1-med-drop-down-meny-i-ren-html-och-css
+ * Changed to only style li-items instead of a.
+ */
+#navbar1 {
+  margin-bottom: @magicNumber*2;
+}
+
+.navbar1 {
+   font-family: @fontFamilyHelvetica;
+   
+}
+ 
+.navbar1 ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+ 
+.navbar1 li {
+  display: inline-block;
+  color: #F6F4DF; 
+  position: relative; 
+  background-color: #2D2F36;
+  border-bottom: 4px solid transparent;
+  margin-top: 10px;
+}
+ 
+.navbar1 a {
+ 
+  display: block;
+  width: 100%;
+  padding: @magicNumber/2;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap; 
+}
+
+.navbar1 li:hover {
+  border-bottom-color: #C90101;
+ 
+
+} 
+ 
+.navbar1 li.selected-parent, 
+.navbar1 li.is-parent, 
+.navbar1 li.selected {
+  color: #F6F4DF; 
+  border-bottom-color: #C90101;
+
+}
+
+.navbar1 ul ul {
+  background-color: #2D2F36; 
+  padding: 2px 6px 2px 0; 
+  position: absolute; 
+  left: -9999px; 
+  z-index: 2;
+ 
+}
+ 
+.navbar1 li li {
+  width: 100%;
+  border-top: none;  
+ 
+}
+
+.navbar1 li:hover ul { 
+  left: 0;
+  
+  
+}
+ 
+.navbar1 li li:hover {
+  border-left: 4px solid #C90101;  
+  border-bottom: 4px solid transparent;
+}
+
+.navbar1 li li.selected {
+  border-left: 4px solid #C90101;  
+  color: #F6F4DF; 
+  border-bottom: 4px solid transparent;
+}
+
+/* Just to sho off how class works */
+.navbar1 li .italic {
+  font-style: italic;
+}
+
+
+
+

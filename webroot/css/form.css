@@ -1,0 +1,132 @@
+/**
+ * Style for forms
+ */
+/*label {
+  font-size: smaller;
+}
+
+input[type=text],
+input[type=password] {
+  font-size: 1.2em;
+  width: 500px;
+}
+
+input[type=submit],
+input[type=reset] {
+  font-size: 1.2em;
+}
+
+textarea {
+  font-size: 1.2em;
+  width: 500px;
+  min-height: 200px;
+}
+
+p.buttons {
+  padding-top: 22px;
+  padding-bottom: 22px;
+} */
+
+
+
+/* Basic Grey */
+.comment-form {
+  /*  margin-left:auto;
+    margin-right:auto;*/
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 0px;
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    color: #282A2B;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.comment-form h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #282A2B;
+}
+.comment-form h1>span {
+    display: block;
+    font-size: 11px;
+}
+.comment-form label {
+    display: inline-block;
+    margin: 0px;
+}
+.comment-form label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #282A2B;
+}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form textarea, .comment-form select {
+    border: 1px solid #DADADA;
+    color: #282A2B;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 50px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 90%;
+    font-size: 16px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.comment-form textarea{
+    padding: 5px 3px 3px 5px;
+}
+.comment-form select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.comment-form textarea{
+    height:100px;
+    width: 500px;
+}
+.comment-form .button {
+    background: #282A2B;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.comment-form .button:hover {
+    background: #F7AB4E
+}
+
+.comments{
+
+
+	background-color: beige;
+    width: 500px;
+    padding: 1px 0px 15px 20px;
+
+}
+
+
+.comments li{
+
+
+list-style: none;
+margin-bottom: 40px;
+
+}

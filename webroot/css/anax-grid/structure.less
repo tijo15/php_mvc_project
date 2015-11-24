@@ -1,0 +1,63 @@
+/**
+ * General elements
+ */
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+#wrap-featured,
+#wrap-main,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+}
+
+
+#header,
+#navbar,
+#flash,
+#footer {
+    .column(@columns);
+    margin-bottom: 22px;
+
+}
+ 
+#main {
+    .column(@columns / 3 * 2);
+    margin-bottom: 22px;
+}
+ 
+#sidebar {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+    background: #DFE2E7;
+}
+#flash{
+background: #DFE2E7;
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+    background: #DFE2E7;
+}
+ 
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4 {
+    .column(@columns / 4);
+    margin-bottom: 22px;
+    background: #DFE2E7;
+}
+
